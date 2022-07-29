@@ -1,0 +1,96 @@
+@import url("https://fonts.google.com/specimen/Karla");
+* {
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: hsl(218deg, 22%, 67%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .price-container {
+  display: flex;
+  width: 50%;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px 2px rgba(128, 128, 128, 0.438);
+}
+.container .price-container .full-width-col {
+  width: 100%;
+  background-color: white;
+  padding: 40px;
+}
+.container .price-container .full-width-col h1 {
+  color: hsl(179deg, 62%, 43%);
+  font-weight: 700;
+  font-size: 26px;
+}
+.container .price-container .full-width-col h2 {
+  color: hsl(71deg, 73%, 54%);
+  font-size: 18px;
+}
+.container .price-container .full-width-col p {
+  color: hsl(204deg, 11%, 73%);
+  font-size: 16px;
+}
+.container .price-container .subs-col {
+  background-color: hsl(179deg, 62%, 43%);
+}
+.container .price-container .why-us-col {
+  background-color: hsl(179deg, 61%, 46%);
+}
+
+button {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: hsl(71deg, 73%, 54%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  box-shadow: 0px 0px 5px 2px rgba(128, 128, 128, 0.438);
+}
+
+.container .price-container .subs-col, .container .price-container .why-us-col {
+  width: 50%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 764px) {
+  .container .price-container .subs-col, .container .price-container .why-us-col {
+    width: 100%;
+  }
+}
+.container .price-container .subs-col h2, .container .price-container .why-us-col h2 {
+  color: white;
+  font-size: 20px;
+}
+.container .price-container .subs-col h3, .container .price-container .why-us-col h3 {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.container .price-container .subs-col h3 span, .container .price-container .why-us-col h3 span {
+  font-size: 16px;
+  padding: 0px 10px;
+  opacity: 0.5;
+  font-weight: 300;
+}
+.container .price-container .subs-col p, .container .price-container .why-us-col p {
+  color: white;
+  line-height: 1.5;
+  opacity: 0.6;
+}
+
+/*# sourceMappingURL=main.css.map */

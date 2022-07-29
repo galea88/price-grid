@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/price-grid/static/css/main.abd64e84.css",
+    "main.js": "/price-grid/static/js/main.9e458ff2.js",
+    "index.html": "/price-grid/index.html",
+    "main.abd64e84.css.map": "/price-grid/static/css/main.abd64e84.css.map",
+    "main.9e458ff2.js.map": "/price-grid/static/js/main.9e458ff2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.9e458ff2.js"
+  ]
+}
